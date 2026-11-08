@@ -1,0 +1,580 @@
+{
+ "mrl": [
+  {
+   "id": "mrl1",
+   "title": "Financial Statements",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl1_1",
+     "title": "",
+     "text": "We have fulfilled our responsibilities for the preparation and presentation of the financial statements as set out in the terms of the audit engagement and, in particular, the financial statements are fairly presented (or give a true and fair view) in accordance with the applicable accounting standards in India.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl2",
+   "title": "Information Provided",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl2_1",
+     "title": "",
+     "text": "We have provided you with:",
+     "on": true
+    },
+    {
+     "id": "mrl2_2",
+     "title": "",
+     "text": "Access to all information of which we are aware that is relevant to the preparation of financial statements such as records, documentation and other matters;",
+     "on": true
+    },
+    {
+     "id": "mrl2_3",
+     "title": "",
+     "text": "Additional information that you have requested from us for the purpose of audit; and",
+     "on": true
+    },
+    {
+     "id": "mrl2_4",
+     "title": "",
+     "text": "Unrestricted access to persons within the entity from whom, you determined it necessary to obtain audit evidence.",
+     "on": true
+    },
+    {
+     "id": "mrl2_5",
+     "title": "",
+     "text": "All transactions have been recorded in the accounting records and are reflected in the financial statements.",
+     "on": true
+    },
+    {
+     "id": "mrl2_6",
+     "title": "",
+     "text": "We have discussed to you the results of our assessment of the risk that the financial statements may be materially misstated as a result of a fraud. (SA 240).",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl3",
+   "title": "Accounting Policies",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl3_1",
+     "title": "",
+     "text": "Accounting policies which are material or critical in determining the results of the operations for the year or financial position or set out in the financial statements and are consistent with those adopted in the financial statements for the previous year. The financial statements are prepared on accrual basis.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl4",
+   "title": "Assets",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl4_1",
+     "title": "",
+     "text": "The company has a satisfactory title to all assets and there are, no liens or encumbrances on the assets, except for those that are disclosed in the notes to the financial statements.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl5",
+   "title": "Property, Plant & Equipment",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl5_1",
+     "title": "",
+     "text": "The net book values at which Property, Plant & Equipment are stated in the Balance Sheet are arrived at:",
+     "on": true
+    },
+    {
+     "id": "mrl5_2",
+     "title": "",
+     "text": "After taking into account all capital expenditure on additions thereto but no expenditure properly chargeable to revenue;",
+     "on": true
+    },
+    {
+     "id": "mrl5_3",
+     "title": "",
+     "text": "After eliminating the cost on accumulated depreciation relating to items sold, discarded, demolished or destroyed:",
+     "on": true
+    },
+    {
+     "id": "mrl5_4",
+     "title": "",
+     "text": "After providing adequate depreciation on Property, Plant & Equipment during the period.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl6",
+   "title": "Capital Commitments and Contingent Liabilities",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl6_1",
+     "title": "",
+     "text": "At the Balance Sheet date, there were no outstanding commitments for capital expenditure or Contingent Liabilities except those disclosed in notes to financial statements as stated below:",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl7",
+   "title": "Investments",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl7_1",
+     "title": "",
+     "text": "The current investments as appearing in the balance sheet consist only of such investments as are by their nature readily realizable and intended to be held for more than one year from the respective dates on which they were made. All other investments have been shown in the Balance Sheet as ‘long term investments.",
+     "on": true
+    },
+    {
+     "id": "mrl7_2",
+     "title": "",
+     "text": "Current Investments have been valued at the lower of cost and fair value. Long term investments have been valued at cost, except that any permanent diminution in their value has been provided for in ascertaining their carrying amount.",
+     "on": true
+    },
+    {
+     "id": "mrl7_3",
+     "title": "",
+     "text": "All investments produced to you for physical verification belong to the entity and they do not include any investments held on behalf of any other person.",
+     "on": true
+    },
+    {
+     "id": "mrl7_4",
+     "title": "",
+     "text": "The entity has clear title to all its investments including such investments which are in process of being registered in the name of the entity and there are no charges against the investments of the entity except those appearing in the records of the entity.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl8",
+   "title": "Inventories",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl8_1",
+     "title": "",
+     "text": "The company does not have any inventories as at the end of the year.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl9",
+   "title": "Debtors, Loans and Advances",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl9_1",
+     "title": "",
+     "text": "The following items appearing in the books as at {{fy_end_ord}} are considered good and fully recoverable with the exception of those specifically shows as “doubtful” in the Balance Sheet\na) Sundry debtors ₹ ---------\nb) Loans & Advances ₹ ---------",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl10",
+   "title": "Other Current Assets",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl10_1",
+     "title": "",
+     "text": "In the opinion of the board of directors; other current assets have a value on realization in the ordinary course of the company’s business which is at least equal to the amount at which they are stated in the Balance Sheet.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl11",
+   "title": "Provision for Claims and Losses",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl11_1",
+     "title": "",
+     "text": "Provision has been made in the accounts for all known losses and claims of material amounts.",
+     "on": true
+    },
+    {
+     "id": "mrl11_2",
+     "title": "",
+     "text": "There have been no events subsequent to the Balance Sheet date which require adjustment of or disclosure in, the financial statements or notes thereto.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl12",
+   "title": "Liabilities",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl12_1",
+     "title": "",
+     "text": "We have recorded all known liabilities in the financial statements.",
+     "on": true
+    },
+    {
+     "id": "mrl12_2",
+     "title": "",
+     "text": "We have disclosed in the notes to the financial statements all guarantees that we have given to third parties and all other contingent liabilities.",
+     "on": true
+    },
+    {
+     "id": "mrl12_3",
+     "title": "",
+     "text": "Contingent liabilities disclosed in the notes to the financial statements do not include any contingencies which are likely to result in a loss and which, therefore, require adjustment of assets or liabilities.",
+     "on": true
+    },
+    {
+     "id": "mrl12_4",
+     "title": "",
+     "text": "In all the law suits against the Company, there are no financial implications.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl13",
+   "title": "Profit and Loss Account",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl13_1",
+     "title": "",
+     "text": "Except as disclosed in the financial statements, the result for the year were not materially affected by:\n(a) Transaction of a nature not usually undertaken by the company;\n(b) Circumstances of an exceptional or non-recurring nature;\n(c) Charges or credits relating to prior years;\n(d) Changes in accounting policies",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl14",
+   "title": "Report on Other Legal and Regulatory Requirements",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl14_1",
+     "title": "",
+     "text": "We have disclosed the impact of pending litigations on its financial position in its financial statements – Refer Note 13 to the financial statements.",
+     "on": true
+    },
+    {
+     "id": "mrl14_2",
+     "title": "",
+     "text": "We did not have any long-term contracts including derivative contracts for which there were any material foreseeable losses.",
+     "on": true
+    },
+    {
+     "id": "mrl14_3",
+     "title": "",
+     "text": "There has not been an occasion in case of the Company during the year under report to transfer any sums to the Investor Education and Protection Fund. The question of delay in transferring such sums does not arise.",
+     "on": true
+    },
+    {
+     "id": "mrl14_4",
+     "title": "",
+     "text": "a) We hereby represent that, to the best of its knowledge and belief, no funds have been advanced or loaned or invested (either from borrowed funds or share premium or any other sources or kind of funds) by the Company to or in any other persons or entities, including foreign entities (“Intermediaries”), with the understanding, whether recorded in writing or otherwise, that the Intermediary shall:\ni) directly or indirectly lend or invest in other persons or entities identified in any manner whatsoever (“Ultimate Beneficiaries”) by or on behalf of the Company, or\nii)provide any guarantee, security or the like to or on behalf of the Ultimate Beneficiaries.\nb) We hereby represent, that, to the best of its knowledge and belief, no funds have been received by the Company from any persons or entities, including foreign entities (“Funding Parties”), with the understanding, whether recorded in writing or otherwise, that the Company shall:\n(i)directly or indirectly, lend or invest in other persons or entities identified in any manner whatsoever (“Ultimate Beneficiaries”) by or on behalf of the Funding Party or\n(ii)provide any guarantee, security or the like from or on behalf of the Ultimate Beneficiaries; and",
+     "on": true
+    },
+    {
+     "id": "mrl14_5",
+     "title": "",
+     "text": "The company has neither declared or paid any dividend during the year, hence reporting in respect of compliance under section 123 of the Act is not applicable.",
+     "on": true
+    }
+   ]
+  },
+  {
+   "id": "mrl15",
+   "title": "General",
+   "slot": "main",
+   "items": [
+    {
+     "id": "mrl15_1",
+     "title": "",
+     "text": "The following have been properly recorded and, when appropriate, adequately disclosed in the financial statements.",
+     "on": true
+    },
+    {
+     "id": "mrl15_2",
+     "title": "",
+     "text": "There have been no irregularities involving management or employees who have a significant role in the system of internal control that could have a material effect on the financial statement.",
+     "on": true
+    },
+    {
+     "id": "mrl15_3",
+     "title": "",
+     "text": "The financial statements are free of material misstatements including omissions.",
+     "on": true
+    },
+    {
+     "id": "mrl15_4",
+     "title": "",
+     "text": "Related Party relationships and transactions have been appropriately accounted for and disclosed in accordance with the requirements of applicable accounting standards in India.",
+     "on": true
+    },
+    {
+     "id": "mrl15_5",
+     "title": "",
+     "text": "All events subsequent to the date of the financial statements and for which applicable accounting standards in India require adjustment or disclosure have been adjusted or disclosed.",
+     "on": true
+    },
+    {
+     "id": "mrl15_6",
+     "title": "",
+     "text": "The company has complied with all aspects of contractual agreements that could have a material effect on the financial statements in the event of non-compliance. There has been no non-compliance with requirements of regulatory authorities that could have a material effect on the financial statements in the event of non-compliance.",
+     "on": true
+    },
+    {
+     "id": "mrl15_7",
+     "title": "",
+     "text": "We have no plans or intentions that may materially affect the carrying value or classification of assets and liabilities reflected in the financial statements.",
+     "on": true
+    },
+    {
+     "id": "mrl15_8",
+     "title": "",
+     "text": "None of the directors is disqualified as on {{fy_end_long}}, from being appointed as a director in terms of Section 164(2) of the Act.",
+     "on": true
+    },
+    {
+     "id": "mrl15_9",
+     "title": "",
+     "text": "There are no proceedings that have been initiated or pending against us for holding any benami property under the Prohibition of Benami Property Transactions Act, 1988 (as amended from time to time) (earlier Benami Transactions (Prohibition) Act, 1988) and the rules made thereunder.",
+     "on": true
+    },
+    {
+     "id": "mrl15_10",
+     "title": "",
+     "text": "We have not been declared a willful defaulter by any bank or financial institution or other lender.",
+     "on": true
+    },
+    {
+     "id": "mrl15_11",
+     "title": "",
+     "text": "We have not entered into any transaction or hold any balance with any Struck off Company.",
+     "on": true
+    },
+    {
+     "id": "mrl15_12",
+     "title": "",
+     "text": "We have complied with the number of layers prescribed under clause (87) of section 2 of the Act read with Companies (Restriction on number of Layers) Rules, 2017, and there are no companies beyond the specified layers.",
+     "on": true
+    },
+    {
+     "id": "mrl15_13",
+     "title": "",
+     "text": "We do not have any transaction not recorded in the books of accounts that has been surrendered or disclosed as income during the year in the tax assessments under the Income-tax Act, 1961 (such as, search or survey or any other relevant provisions of the Income-tax Act, 1961). Further, there was no previously unrecorded income and no additional assets were required to be recorded in the books of account during the year.",
+     "on": true
+    },
+    {
+     "id": "mrl15_14",
+     "title": "",
+     "text": "We have neither traded nor invested in Crypto currency or Virtual Currency during the financial year. Further, we have also not received any deposits or advances from any person for the purpose of trading or investing in Crypto Currency or Virtual Currency.",
+     "on": true
+    }
+   ]
+  }
+ ],
+ "proposal": [
+  {
+   "id": "obs",
+   "title": "Preliminary Observations",
+   "slot": "main",
+   "items": [
+    {
+     "id": "obs1",
+     "title": "",
+     "text": "--------- (describe the client-specific observations that form the starting point of the assignment)",
+     "on": false
+    }
+   ]
+  },
+  {
+   "id": "fema",
+   "title": "Scope of Work – Overseas Investment (FEMA) Compliances",
+   "slot": "main",
+   "items": [
+    {
+     "id": "fema1",
+     "title": "Structure mapping and classification",
+     "text": "residential status and control analysis for each shareholder; classification of each holding (direct / indirect, number of layers); consolidated FEMA position chart.",
+     "on": false
+    },
+    {
+     "id": "fema2",
+     "title": "Historical compliance review",
+     "text": "reconciliation of remittance and capital trail, UIN / Form FC / Form ODI filings, AD Bank records, LRS utilisation, pricing and valuation support, and identification of any contravention or delay.",
+     "on": false
+    },
+    {
+     "id": "fema3",
+     "title": "Reporting and filings",
+     "text": "preparation and submission of Form FC and related reporting through the AD Bank, Annual Performance Report (APR) for each overseas entity on the basis of its financial statements, and disinvestment / closure reporting.",
+     "on": false
+    },
+    {
+     "id": "fema4",
+     "title": "Review of the Income-tax Returns",
+     "text": "of the resident shareholders and of the Indian entities that have remitted funds, to verify that remittances to and holdings in the overseas entities, their source of funds and any income therefrom have been correctly disclosed (including Schedule FA); identification of gaps; and advice on corrective filings (revised / updated returns, where permissible).",
+     "on": false
+    }
+   ]
+  },
+  {
+   "id": "audit",
+   "title": "Scope of Work – Statutory Audit",
+   "slot": "main",
+   "items": [
+    {
+     "id": "aud1",
+     "title": "Audit",
+     "text": "audit of the financial statements for the year ended --------- in accordance with the Standards on Auditing issued by the ICAI and the provisions of the Companies Act, 2013, and issue of the auditor's report thereon.",
+     "on": false
+    },
+    {
+     "id": "aud2",
+     "title": "Reporting under CARO",
+     "text": "reporting on the matters specified in the Companies (Auditor's Report) Order, 2020, as applicable.",
+     "on": false
+    },
+    {
+     "id": "aud3",
+     "title": "Internal financial controls",
+     "text": "reporting on the adequacy and operating effectiveness of internal financial controls over financial reporting, where applicable.",
+     "on": false
+    },
+    {
+     "id": "aud4",
+     "title": "Other statutory reporting",
+     "text": "reporting on other matters required under Section 143 of the Companies Act, 2013 and the Rules made thereunder.",
+     "on": false
+    }
+   ]
+  },
+  {
+   "id": "tax",
+   "title": "Scope of Work – Tax Audit and Income-tax Compliances",
+   "slot": "main",
+   "items": [
+    {
+     "id": "tax1",
+     "title": "Tax audit",
+     "text": "audit under the applicable provisions of the Income-tax law and issue of the report in the prescribed form, where applicable.",
+     "on": false
+    },
+    {
+     "id": "tax2",
+     "title": "Return of income",
+     "text": "computation of total income and preparation and filing of the income-tax return, and advice on advance tax.",
+     "on": false
+    },
+    {
+     "id": "tax3",
+     "title": "TDS / TCS compliances",
+     "text": "review of deduction, deposit and filing of quarterly statements of tax deducted / collected at source.",
+     "on": false
+    }
+   ]
+  },
+  {
+   "id": "gst",
+   "title": "Scope of Work – GST Compliances",
+   "slot": "main",
+   "items": [
+    {
+     "id": "gst1",
+     "title": "Periodic returns",
+     "text": "preparation and filing of the periodic GST returns (GSTR-1 and GSTR-3B), and reconciliation with the books and with GSTR-2B.",
+     "on": false
+    },
+    {
+     "id": "gst2",
+     "title": "Annual return",
+     "text": "preparation and filing of the annual return and reconciliation statement, where applicable.",
+     "on": false
+    }
+   ]
+  },
+  {
+   "id": "roc",
+   "title": "Scope of Work – Company Law (ROC) Compliances",
+   "slot": "main",
+   "items": [
+    {
+     "id": "roc1",
+     "title": "Annual filings",
+     "text": "preparation and filing of the financial statements and annual return with the Registrar of Companies, as applicable.",
+     "on": false
+    },
+    {
+     "id": "roc2",
+     "title": "Event-based filings",
+     "text": "preparation and filing of forms for changes in directors, capital, registered office and other events, as required.",
+     "on": false
+    }
+   ]
+  },
+  {
+   "id": "terms",
+   "title": "Exclusions and Terms",
+   "slot": "terms",
+   "items": [
+    {
+     "id": "t1",
+     "title": "Exclusions",
+     "text": "any work not specifically mentioned above, including ---------. These can be taken up under a separate proposal.",
+     "on": true
+    },
+    {
+     "id": "t2",
+     "title": "Fees and expenses",
+     "text": "the above fees are subject to GST and other taxes as applicable on the date of invoice and exclude out-of-pocket expenses and any statutory fees, charges or penalties, all of which are to be borne by the client.",
+     "on": true
+    },
+    {
+     "id": "t3",
+     "title": "Payment",
+     "text": "fees are payable within --------- days of the invoice.",
+     "on": true
+    },
+    {
+     "id": "t4",
+     "title": "Information and cooperation",
+     "text": "the client will provide complete information and timely access to records and personnel; delays in providing information may affect timelines and fees.",
+     "on": true
+    },
+    {
+     "id": "t5",
+     "title": "Confidentiality",
+     "text": "we will keep all information confidential, except where disclosure is required by law or by professional standards.",
+     "on": true
+    },
+    {
+     "id": "t6",
+     "title": "Execution",
+     "text": "the assignment will be carried out by experienced chartered accountants and trained article assistants under the direct supervision of the Partner in-charge. A formal engagement letter will be issued on receipt of your appointment confirmation.",
+     "on": true
+    },
+    {
+     "id": "t7",
+     "title": "Validity",
+     "text": "this proposal is valid for --------- days from its date.",
+     "on": true
+    }
+   ]
+  }
+ ]
+}

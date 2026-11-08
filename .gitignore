@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/WorkPaperPro/
+*.spec
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Generated from the ICAI publication by setup.bat (not stored in the repository)
+catalog/
+
+# Local data: databases, backups, logs - never commit client data
+*.db
+*.sqlite3
+WorkPaperPro-backup-*.zip
+launcher.log
+reset-lock.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

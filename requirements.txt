@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn>=0.29
+lxml>=5.0
+docx2pdf>=0.1.8      # optional: PDF export through Microsoft Word (Windows). LibreOffice also works.
+pypdf>=4.0         # optional: one combined PDF
+reportlab>=4.0     # optional: page numbers in the combined PDF

@@ -1,0 +1,2 @@
+# only needed for "python launcher.py --webview" (native pywebview window). Not required.
+pywebview>=5.0

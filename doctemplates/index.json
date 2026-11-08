@@ -1,0 +1,742 @@
+{
+ "el_audit": {
+  "id": "el_audit",
+  "title": "Engagement letter – Statutory audit",
+  "category": "Engagement & audit letters",
+  "description": "Engagement letter for the statutory audit (Companies Act 2013), addressed to the Board.",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date of document",
+    "type": "date",
+    "default": "fy_end_next",
+    "fmt": "ord"
+   },
+   {
+    "key": "partner",
+    "label": "Signing partner",
+    "type": "partner"
+   },
+   {
+    "key": "place",
+    "label": "Place",
+    "type": "text",
+    "default": "firm_place"
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "mrl_general": {
+  "id": "mrl_general",
+  "title": "Management representation letter (clause library)",
+  "category": "Engagement & audit letters",
+  "description": "Representation letter to the auditors (SA 580). Tick, edit or add clauses for this client; standard clauses live in the Clause library.",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date of letter",
+    "type": "date",
+    "default": "today",
+    "fmt": "dash"
+   },
+   {
+    "key": "signatory",
+    "label": "Signed by (director)",
+    "type": "director"
+   },
+   {
+    "key": "clauses",
+    "label": "Representations",
+    "type": "clauses",
+    "library": "mrl"
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "mrl_caro": {
+  "id": "mrl_caro",
+  "title": "Management representation letter (CARO)",
+  "category": "Engagement & audit letters",
+  "description": "CARO-oriented representation letter; includes the statutory dues in dispute table.",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date of letter",
+    "type": "date",
+    "default": "today",
+    "fmt": "long"
+   },
+   {
+    "key": "disputed",
+    "label": "Statutory dues in dispute",
+    "type": "list",
+    "columns": [
+     {
+      "key": "nature",
+      "label": "Nature of dues",
+      "type": "text"
+     },
+     {
+      "key": "amount",
+      "label": "Amount (Rs. in hundreds)",
+      "type": "text"
+     },
+     {
+      "key": "period",
+      "label": "Period to which it relates",
+      "type": "text"
+     },
+     {
+      "key": "forum",
+      "label": "Forum where dispute is pending",
+      "type": "text"
+     }
+    ]
+   }
+  ],
+  "repeats": [
+   {
+    "table": 0,
+    "row": 1,
+    "source": "disputed",
+    "cols": [
+     "nature",
+     "amount",
+     "period",
+     "forum"
+    ]
+   }
+  ],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "auditor_consent": {
+  "id": "auditor_consent",
+  "title": "Auditor's consent & eligibility certificate (s.139)",
+  "category": "Engagement & audit letters",
+  "description": "Consent and eligibility certificate under Section 139 / 141, addressed to the Board.",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date of document",
+    "type": "date",
+    "default": "fy_end_next",
+    "fmt": "ord"
+   },
+   {
+    "key": "partner",
+    "label": "Signing partner",
+    "type": "partner"
+   },
+   {
+    "key": "place",
+    "label": "Place",
+    "type": "text",
+    "default": "firm_place"
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "appointment_intimation": {
+  "id": "appointment_intimation",
+  "title": "Appointment letter to auditor (from the Company)",
+  "category": "Engagement & audit letters",
+  "description": "Intimation of appointment of the firm as statutory auditor, issued by the Company.",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date of letter",
+    "type": "date",
+    "default": "today",
+    "fmt": "dmy"
+   },
+   {
+    "key": "till_fy",
+    "label": "Term up to AGM for the financial year",
+    "type": "text",
+    "placeholder": "e.g. 2030-31"
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "list_directors": {
+  "id": "list_directors",
+  "title": "List of directors",
+  "category": "Company records",
+  "description": "List of directors as on a date, taken from the Company profile.",
+  "fields": [
+   {
+    "key": "as_on",
+    "label": "As on",
+    "type": "date",
+    "default": "fy_end",
+    "fmt": "dots"
+   },
+   {
+    "key": "date",
+    "label": "Date signed",
+    "type": "date",
+    "default": "fy_end_next",
+    "fmt": "dots"
+   },
+   {
+    "key": "signatory",
+    "label": "Signed by (director)",
+    "type": "director"
+   },
+   {
+    "key": "sign_place",
+    "label": "Place",
+    "type": "text",
+    "default": "reg_city"
+   }
+  ],
+  "repeats": [
+   {
+    "table": 0,
+    "row": 1,
+    "source": "directors",
+    "cols": [
+     "#",
+     "din",
+     "name",
+     "designation",
+     "category",
+     "appointed@date"
+    ]
+   }
+  ],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "list_shareholders": {
+  "id": "list_shareholders",
+  "title": "List of shareholders",
+  "category": "Company records",
+  "description": "Shareholder list with holdings and % computed from the Company profile.",
+  "fields": [
+   {
+    "key": "as_on",
+    "label": "As on",
+    "type": "date",
+    "default": "fy_end",
+    "fmt": "dots"
+   },
+   {
+    "key": "date",
+    "label": "Date signed",
+    "type": "date",
+    "default": "fy_end_next",
+    "fmt": "dots"
+   },
+   {
+    "key": "signatory",
+    "label": "Signed by (director)",
+    "type": "director"
+   },
+   {
+    "key": "sign_place",
+    "label": "Place",
+    "type": "text",
+    "default": "reg_city"
+   }
+  ],
+  "repeats": [
+   {
+    "table": 0,
+    "row": 1,
+    "source": "shareholders",
+    "cols": [
+     "#",
+     "name",
+     "address",
+     "shares",
+     "face",
+     "_amt",
+     "_pct"
+    ],
+    "tail": 1
+   }
+  ],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "mbp1_dir8": {
+  "id": "mbp1_dir8",
+  "title": "Form MBP-1 and DIR-8 (per director)",
+  "category": "Company records",
+  "description": "Disclosure of interest (MBP-1) and intimation of non-disqualification (DIR-8) for one director.",
+  "fields": [
+   {
+    "key": "director",
+    "label": "Director",
+    "type": "director"
+   },
+   {
+    "key": "date",
+    "label": "Date",
+    "type": "date",
+    "default": "fy_end_next",
+    "fmt": "dots"
+   },
+   {
+    "key": "sign_place",
+    "label": "Place",
+    "type": "text",
+    "default": "reg_city"
+   },
+   {
+    "key": "interests",
+    "label": "MBP-1: entities in which the director is interested",
+    "type": "list",
+    "columns": [
+     {
+      "key": "company",
+      "label": "Name of company / body corporate / firm",
+      "type": "text"
+     },
+     {
+      "key": "nature",
+      "label": "Nature of interest",
+      "type": "text"
+     },
+     {
+      "key": "holding",
+      "label": "Shareholding (No. & %)",
+      "type": "text"
+     },
+     {
+      "key": "since",
+      "label": "Date interest arose",
+      "type": "date"
+     }
+    ]
+   },
+   {
+    "key": "directorships",
+    "label": "DIR-8: directorships in the last 3 years",
+    "type": "list",
+    "columns": [
+     {
+      "key": "company",
+      "label": "Name of company",
+      "type": "text"
+     },
+     {
+      "key": "since",
+      "label": "Original date of appointment",
+      "type": "date"
+     },
+     {
+      "key": "ceased",
+      "label": "Date of cessation",
+      "type": "date"
+     }
+    ]
+   },
+   {
+    "key": "disq",
+    "label": "Disqualified under s.164(2)?",
+    "type": "select",
+    "options": [
+     "no",
+     "yes"
+    ],
+    "default": "no"
+   }
+  ],
+  "repeats": [
+   {
+    "table": 0,
+    "row": 1,
+    "source": "interests",
+    "cols": [
+     "#",
+     "company",
+     "nature",
+     "holding",
+     "since@date"
+    ]
+   },
+   {
+    "table": 1,
+    "row": 1,
+    "source": "directorships",
+    "cols": [
+     "#",
+     "company",
+     "since@date",
+     "ceased@date"
+    ]
+   }
+  ],
+  "conditions": [
+   {
+    "field": "disq",
+    "equals": "no",
+    "default": "no",
+    "delete": [
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59
+    ]
+   },
+   {
+    "field": "disq",
+    "equals": "yes",
+    "delete": [
+     51,
+     52,
+     53
+    ]
+   }
+  ],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "board_resolution_fs": {
+  "id": "board_resolution_fs",
+  "title": "Board resolution – approval of financial statements",
+  "category": "Resolutions",
+  "description": "Certified true copy of the Board resolution approving the financial statements (s.134).",
+  "fields": [
+   {
+    "key": "meeting_date",
+    "label": "Date of Board meeting",
+    "type": "date",
+    "default": "today",
+    "fmt": "dash"
+   },
+   {
+    "key": "meeting_time",
+    "label": "Time of meeting",
+    "type": "text",
+    "default": "10:00 A.M."
+   },
+   {
+    "key": "signatory",
+    "label": "Certified by (director)",
+    "type": "director"
+   },
+   {
+    "key": "sign_place",
+    "label": "Place",
+    "type": "text",
+    "default": "reg_city"
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "certificate_turnover": {
+  "id": "certificate_turnover",
+  "title": "Turnover certificate (new business / name change)",
+  "category": "Certificates",
+  "description": "Independent practitioner's report on turnover of a new business activity (for change of name).",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date of certificate",
+    "type": "date",
+    "default": "today",
+    "fmt": "ord"
+   },
+   {
+    "key": "partner",
+    "label": "Signing partner",
+    "type": "partner"
+   },
+   {
+    "key": "place",
+    "label": "Place",
+    "type": "text",
+    "default": "firm_place"
+   },
+   {
+    "key": "udin",
+    "label": "UDIN",
+    "type": "text"
+   },
+   {
+    "key": "new_name",
+    "label": "Proposed new name of the Company",
+    "type": "text"
+   },
+   {
+    "key": "sr_date",
+    "label": "Date of special resolution",
+    "type": "date",
+    "default": "today",
+    "fmt": "dmonth"
+   },
+   {
+    "key": "new_business",
+    "label": "New business activity",
+    "type": "text"
+   },
+   {
+    "key": "turnover",
+    "label": "Turnover from new activity (Rs.)",
+    "type": "money"
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "certificate_networth": {
+  "id": "certificate_networth",
+  "title": "Net worth certificate (individual)",
+  "category": "Certificates",
+  "description": "Net worth certificate with the annexure computed from assets and liabilities entered here.",
+  "fields": [
+   {
+    "key": "client_name",
+    "label": "Name of the individual",
+    "type": "text"
+   },
+   {
+    "key": "client_pan",
+    "label": "PAN",
+    "type": "text"
+   },
+   {
+    "key": "father_name",
+    "label": "S/o (father's name)",
+    "type": "text"
+   },
+   {
+    "key": "address",
+    "label": "Residential address",
+    "type": "textarea"
+   },
+   {
+    "key": "as_on",
+    "label": "Net worth as on",
+    "type": "date",
+    "default": "fy_end",
+    "fmt": "dots"
+   },
+   {
+    "key": "date",
+    "label": "Date of certificate",
+    "type": "date",
+    "default": "today",
+    "fmt": "dmy"
+   },
+   {
+    "key": "partner",
+    "label": "Signing partner",
+    "type": "partner"
+   },
+   {
+    "key": "place",
+    "label": "Place",
+    "type": "text",
+    "default": "firm_place"
+   },
+   {
+    "key": "udin",
+    "label": "UDIN",
+    "type": "text"
+   },
+   {
+    "key": "assets",
+    "label": "Assets",
+    "type": "list",
+    "columns": [
+     {
+      "key": "particulars",
+      "label": "Particulars",
+      "type": "text"
+     },
+     {
+      "key": "amount",
+      "label": "Amount (Rs.)",
+      "type": "money"
+     }
+    ]
+   },
+   {
+    "key": "liabilities",
+    "label": "Liabilities",
+    "type": "list",
+    "columns": [
+     {
+      "key": "particulars",
+      "label": "Particulars",
+      "type": "text"
+     },
+     {
+      "key": "amount",
+      "label": "Amount (Rs.)",
+      "type": "money"
+     }
+    ]
+   }
+  ],
+  "repeats": [],
+  "conditions": [],
+  "heading_style": "num",
+  "slots_order": [
+   "main"
+  ]
+ },
+ "proposal": {
+  "id": "proposal",
+  "title": "Proposal to client (clause library)",
+  "category": "Proposals",
+  "description": "Proposal in the firm's format: addressee, optional entities table, scope clauses you tick and edit, fee table and terms. Standard clauses live in the Clause library.",
+  "fields": [
+   {
+    "key": "date",
+    "label": "Date",
+    "type": "date",
+    "default": "today",
+    "fmt": "long"
+   },
+   {
+    "key": "place",
+    "label": "Place",
+    "type": "text",
+    "default": "firm_place"
+   },
+   {
+    "key": "attn",
+    "label": "Kind attention",
+    "type": "text"
+   },
+   {
+    "key": "subject",
+    "label": "Subject (Reg:)",
+    "type": "textarea",
+    "default": "Proposal for ---------"
+   },
+   {
+    "key": "intro",
+    "label": "Introduction",
+    "type": "textarea",
+    "default": "We thank you for the confidence reposed in our firm. On the basis of our discussions with you, we propose to provide the professional services described below."
+   },
+   {
+    "key": "entities",
+    "label": "Entities covered (optional – leave empty to omit)",
+    "type": "list",
+    "columns": [
+     {
+      "key": "entity",
+      "label": "Entity / jurisdiction",
+      "type": "text"
+     }
+    ]
+   },
+   {
+    "key": "clauses",
+    "label": "Scope of work and terms",
+    "type": "clauses",
+    "library": "proposal"
+   },
+   {
+    "key": "fees",
+    "label": "Fee table",
+    "type": "list",
+    "columns": [
+     {
+      "key": "nature",
+      "label": "Nature of assignment",
+      "type": "text"
+     },
+     {
+      "key": "amount",
+      "label": "Amount (Rs.)",
+      "type": "money"
+     }
+    ]
+   },
+   {
+    "key": "partner",
+    "label": "Signing partner",
+    "type": "partner"
+   }
+  ],
+  "repeats": [
+   {
+    "table": 0,
+    "row": 1,
+    "source": "entities",
+    "cols": [
+     "#",
+     "entity"
+    ]
+   },
+   {
+    "table": 1,
+    "row": 1,
+    "source": "fees",
+    "cols": [
+     "#",
+     "nature",
+     "amount@money"
+    ],
+    "tail": 1
+   }
+  ],
+  "conditions": [
+   {
+    "field": "entities",
+    "empty": true,
+    "delete": [
+     8,
+     9
+    ]
+   }
+  ],
+  "heading_style": "alpha",
+  "slots_order": [
+   "main",
+   "terms"
+  ]
+ }
+}
